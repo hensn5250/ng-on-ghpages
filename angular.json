@@ -100,8 +100,13 @@
           "options": {
             "browserTarget": "angular-on-ghpages:build"
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-on-ghpages"
 }
